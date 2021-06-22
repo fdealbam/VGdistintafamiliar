@@ -607,7 +607,7 @@ body = html.Div([
     
                        html.P(
                            "Los 10 municipios con más violencia de género distinta  a la violencia famimliar fueron: San Pedro (265), Sabinas (169), Múzquiz (132), Parras (70),"
-                           " San Juan de Sabinas (54), Torreón (44), Francisco I. Madero (41), Piedras Negras (34), Saltillo (27), y "
+                           " San Juan de Sabinas (54), Torreón (44), Francisco I. Madero (41), Piedras Negras (34), Saltillo (27) y "
                            "Juárez (2).",
                            style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
                ]), style={"background-color":"white",
@@ -626,7 +626,7 @@ body = html.Div([
                         html.P(
                           "Los 10 municipios con más violencia de género distinta  a la violencia famimliar fueron: Acapulco de Juárez (514),"
                             " Chilpancingo de los Bravo (108), Iguala de la Independencia (21), Tlapa de Comonfort (15), Coyuca de Benítez"
-                            "(11), Ometepec (11), San Marcos (10), Zihuatanejo de Azueta (10), Taxco de Alarcón (9), y Ayutla de los Libres (7).",
+                            "(11), Ometepec (11), San Marcos (10), Zihuatanejo de Azueta (10), Taxco de Alarcón (9) y Ayutla de los Libres (7).",
                            style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
                ]), style={"background-color":"white",
                          "box-shadow": "10px 20px 30px black",
