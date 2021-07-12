@@ -27,7 +27,11 @@ yea = datetime.strftime(yesterday, '%Y%m%d')
 today = date.today()
 d2 = today.strftime("Fecha de actualización : %d-%m-%Y")
 
-
+tabla1 = pd.read_csv('https://raw.githubusercontent.com/fdealbam/violenciadegenero/main/Tabla1.csv')              
+tabla1_f = tabla1[tabla1['Tipo de delito']== 'Distinta a violencia familiar' ]
+tabla1_f.reset_index(inplace=True,)
+TOTVGDISTFAM = tabla1_f.iloc[0]['GRAND TOTAL']
+TASAVGDISTFAM = tabla1_f.iloc[0]['tasa_acumulada']
 
 ###############################
 # DATABASES
@@ -395,6 +399,8 @@ body = html.Div([
                     "La violencia de género en todas sus modalidades distinta a la violencia familiar es uno de los delitos más graves de la violencia de género que se vive en el país, "
                     "además, son problemas aún irresueltos y son tema central de la " 
                     "agenda legislativa, pero hoy alcanzan relevancia en la agenda seguridad pública del país, también. "
+                   " Entre 2015 y 2021 se registraron "+ str(f"{int(TOTVGDISTFAM):,}") +" casos, lo que representa una tasa de "+
+       str(TASAVGDISTFAM) +" delitos por cada 100 mil habitantes. "+
                     "Este dashboard analítico se compone de una sección en la cual tratamos la violencia de género en todas sus modalidades distinta a la violencia familiar, observamos "
                     "su gravedad según intervalos anuales o mensuales; incluimos el análisis detallado de cuatro "
                     "entidades con más incidencias de este delito; finalmente, comparamos los rankings por entidad "
