@@ -768,9 +768,7 @@ body = html.Div([
                          }, disabled=True)),
          dbc.Col(dbc.Button(([html.P("Coahuila", style={"font-size": 30,"color": "black","background-color": "white"}),
                        dbc.CardImg(src="https://github.com/fdealbam/VGdistintafamiliar/blob/main/application/static/coah2.jpeg?raw=true",
-     html.Br(),
-                                     html.Br(),
-                                   
+
               
                   style={'size': 2,}),
                           html.P(bulletedo4,
