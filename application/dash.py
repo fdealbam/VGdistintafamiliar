@@ -756,7 +756,8 @@ body = html.Div([
                   
               dbc.Col(dbc.Button(([html.P("Guerrero", style={"font-size": 30,"color": "black","background-color": "white"}),
                        dbc.CardImg(src="https://github.com/fdealbam/VGdistintafamiliar/blob/main/application/static/gro2.jpeg?raw=true"),
-                    
+            
+                                   
                           html.P(bulletedo3,
                      style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
                ]), style={"background-color":"white",
@@ -767,16 +768,18 @@ body = html.Div([
                          }, disabled=True)),
          dbc.Col(dbc.Button(([html.P("Coahuila", style={"font-size": 30,"color": "black","background-color": "white"}),
                        dbc.CardImg(src="https://github.com/fdealbam/VGdistintafamiliar/blob/main/application/static/coah2.jpeg?raw=true",
-    
+     html.Br(),
+                                     html.Br(),
+                                   
               
                   style={'size': 2,}),
                           html.P(bulletedo4,
                      style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
-               ]), style={"background-color":"white",
+               ]),  style={"background-color":"white",
                          "box-shadow": "10px 20px 30px black",
-                         'margin-left': '300px',
+                        # 'margin-left': '10px',
                         'width': '550px',
-                         
+                        
                          }, disabled=True)),
    
           ]),
