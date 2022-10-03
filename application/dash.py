@@ -722,8 +722,8 @@ body = html.Div([
        html.Br(),
        html.Br(),
     dbc.Row(
-           [     dbc.Col(dbc.Button(([html.P("México", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/VGdistintafamiliar/blob/main/application/static/mx.jpeg?raw=true",
+           [     dbc.Col(dbc.Button(([html.P(edoname1, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/VGdistintafamiliar/blob/main/application/static/Mapa México.png?raw=true",
                   style={'size': 2,}),
                        html.P(bulletedo1,
                            style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -734,8 +734,8 @@ body = html.Div([
                          
                          }, disabled=True)),
          
-               dbc.Col(dbc.Button(([html.P("Veracruz", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/VGdistintafamiliar/blob/main/application/static/ver.jpeg?raw=true",
+               dbc.Col(dbc.Button(([html.P(edoname2, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/VGdistintafamiliar/blob/main/application/static/Mapa Veracruz de Ignacio de la Llave.png?raw=true",
                                     style={'size': 2,}),
                                      html.Br(),
                                      html.Br(),
@@ -754,8 +754,8 @@ body = html.Div([
     html.Br(),
      dbc.Row([
                   
-              dbc.Col(dbc.Button(([html.P("Guerrero", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/VGdistintafamiliar/blob/main/application/static/gro2.jpeg?raw=true"),
+              dbc.Col(dbc.Button(([html.P(edoname3, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/VGdistintafamiliar/blob/main/application/static/Mapa Guerrero.png?raw=true"),
             
                                    
                           html.P(bulletedo3,
@@ -766,8 +766,8 @@ body = html.Div([
                         'width': '550px',
                          
                          }, disabled=True)),
-         dbc.Col(dbc.Button(([html.P("Coahuila", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/VGdistintafamiliar/blob/main/application/static/coah2.jpeg?raw=true",
+         dbc.Col(dbc.Button(([html.P(edoname4, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/VGdistintafamiliar/blob/main/application/static/Mapa Coahuila de Zaragoza.png?raw=true",
 
               
                   style={'size': 2,}),
